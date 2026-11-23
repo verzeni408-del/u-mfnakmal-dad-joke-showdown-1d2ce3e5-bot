@@ -1,31 +1,19 @@
 # Dad Joke Showdown
 
-Entry for the make.fun competition "Dad Joke Showdown"
-(slug `u-mfnakmal-dad-joke-showdown-1d2ce3e5`).
+Entry untuk kompetisi make.fun "Dad Joke Showdown".
 
-`main.py` is stdlib-only. It writes a single dad joke to the absolute
-path `/output/entry.txt`.
+## Varian yang didraft
 
-## The three drafts
+1. Sikat gigi di kamar mandi hilang. Aku cari-cari, ternyata disikat tetangga.
+2. Kunci rumahku suka hilang di dalam tas. Aku tanya dia ngumpet di mana, dia diam saja. Soalnya dia kunci mulut.
+3. Gayung di kamar mandi jatuh terus. Aku bilang, "Kamu kenapa jatuh?" Dia jawab, "Aku lagi nyari sambutan."
 
-1. "I told my suitcase there would be no vacation this year. Now I'm dealing with emotional baggage." (96 characters)
-2. "I told my wife she should embrace her mistakes. She hugged me." (62 characters)
-3. "I asked the calendar why it looked so stressed. It said it had too many dates." (78 characters)
+## Pilihan final
 
-## The pick
+Varian 1. Pun "disikat" paling bersih dan langsung mendarat tanpa penjelasan, situasinya konkret dan sehari-hari, dan belum beredar sebagai joke umum.
 
-Draft 1. The pun lands cleanly without any explanation: a suitcase
-literally carries baggage, and "emotional baggage" is the phrase every
-dad at the dinner table already uses. It is a situation dads actually
-tell, the punchline sits at the very end, and it reads well out loud.
-Draft 2 is tight but leans on the wife as the butt of the joke, and
-draft 3 is a solid pun but thinner; neither one has the same everyday
-picture as a suitcase left at home.
+Joke final: Sikat gigi di kamar mandi hilang. Aku cari-cari, ternyata disikat tetangga.
 
-## Run
+## Cara kerja
 
-```sh
-python3 main.py
-```
-
-Then read `/output/entry.txt`.
+`main.py` (stdlib-only) menulis satu dad joke ke `/output/entry.txt`.
