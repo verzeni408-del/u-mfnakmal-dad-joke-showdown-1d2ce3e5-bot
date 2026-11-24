@@ -1,4 +1,4 @@
-"""Dad Joke Showdown entry — writes one original dad joke to /output/entry.txt.
+"""Dad Joke Showdown entry v2 — writes one original dad joke to /output/entry.txt.
 
 Stdlib only. The joke is validated to be within the 1-200 character limit
 before it is written out.
@@ -7,7 +7,7 @@ before it is written out.
 from pathlib import Path
 
 
-PUNCHLINE = "Sikat gigi di kamar mandi hilang. Aku cari-cari, ternyata disikat tetangga."
+PUNCHLINE = "My dad said money doesn't grow on trees. So I asked him why he keeps telling me to branch out."
 
 DESTINATION = Path("/output") / "entry.txt"
 
